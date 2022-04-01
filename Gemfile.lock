@@ -11,8 +11,8 @@ GEM
     multipart-post (2.1.1)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
-    nio4r (2.5.2)
-    puma (4.3.6)
+    nio4r (2.5.8)
+    puma (5.6.4)
       nio4r (~> 2.0)
     rack (2.2.2)
     rack-protection (2.0.8.1)
@@ -48,7 +48,7 @@ DEPENDENCIES
   faraday
   faraday_middleware
   jwt
-  puma
+  puma (>= 4.3.12)
   rack
   rake
   rspec
@@ -59,4 +59,4 @@ RUBY VERSION
    ruby 2.6.3p62
 
 BUNDLED WITH
-   2.1.4
+   1.17.3
